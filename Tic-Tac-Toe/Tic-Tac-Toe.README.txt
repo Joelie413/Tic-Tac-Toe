@@ -1,0 +1,13 @@
+In this repository are 4 different versions of Tic-Tac-Toe.
+This was part of Jose Portilla's "The Complete Python Bootcamp From Zero to Hero"
+
+Version 1 has a few 'broken' properties: 
+	a) Allows player 1's answer to not be either 'X' or 'O', thus seemly 	   	   	   randomizing the player's markers
+	b) game will break if a player's input is not an integer
+
+Version 2 is the same as Version 1. I'm not actually sure why i even save V2.
+
+Version 3 was an attempt at making Tic-Tac-Toe without the help of the notebooks 	or lectures that went along with this project. Except, I actually did look at previous code or the lectures when I got stuck.
+
+Version 4 is the final version where I re-wrote the player_choice function. The new code for this function prevents the game from breaking if a player's input is not an integer. Instead, it notifies the user that their input was either not valid or that the spot they chose is already taken. The only way to break this version is to follow the prompts to end the game.
+	
